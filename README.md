@@ -46,4 +46,37 @@ example
 let msg = "fbgm"
 msg.toUpperCase() //returns "FBGM"
 
-.trim() -- trims leading and trailing spaces
+- .trim() -- trims leading and trailing spaces
+- .indexOf("") gives us string index
+- .slice(beginIndex, endIndex) is going to extract or slice a portion of a string and returns it as a new string.
+takes in (beginindex, endindex )is optional
+
+- .replace("","")
+first argument is what you want to repleace
+second argument is what you want to replace with
+- .repeat() argument it takes how many times you want string to repeat
+
+Null & Undefined
+- Null: Intentrional absence of any value , must he assigned 
+- Undefined: 
+Variables that do not have an assigned value are undefined
+
+
+Math Object
+contains properties and methods for mathematical constants and functions 
+
+- Math.PI // 3.1415....
+
+- Math.round(4.9) // 5 rounds
+
+- Math.abs(-456)//456 absolute value
+
+- Math.pow(2,5) //32 raises 2 to the 5th power
+
+- Math.floor(3.999) //3 removes decimal
+
+console.warn("")// prints yellow
+console.error("") prints red
+alert("") // pop up
+prompt("") // pop up allows user to user input
+parseInt() // converts string to int
