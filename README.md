@@ -80,3 +80,23 @@ console.error("") prints red
 alert("") // pop up
 prompt("") // pop up allows user to user input
 parseInt() // converts string to int
+
+.push method allows you to push item to end of array for example 
+a = [ 'b', 'c', 'd']
+a.push('x')
+
+a = [ 'b', 'c', 'd', 'x']
+
+# Array Methods
+Push - add to an end
+Pop - remove from end
+Shift - remove from start 
+Unshift - add to start
+concat - merge arrays
+includes - look for a value
+indexOf - just like string.indexOf
+join - creates a string from an array
+reverse - reverses an array 
+slice - copies a portion on an array 
+splice - removes/replaces elements 
+sort - sorts array 
