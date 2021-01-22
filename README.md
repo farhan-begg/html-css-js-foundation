@@ -100,3 +100,15 @@ reverse - reverses an array
 slice - copies a portion on an array 
 splice - removes/replaces elements 
 sort - sorts array 
+
+# Goals for this section
+- Use the new arrow function syntax
+- understand and use these methods
+    - forEach
+    - map
+    - filter 
+    - find 
+    - reduce 
+    - some 
+    - every 
+    
