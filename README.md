@@ -88,20 +88,20 @@ a.push('x')
 a = [ 'b', 'c', 'd', 'x']
 
 # Array Methods
-Push - add to an end
-Pop - remove from end
-Shift - remove from start 
-Unshift - add to start
-concat - merge arrays
-includes - look for a value
-indexOf - just like string.indexOf
-join - creates a string from an array
-reverse - reverses an array 
-slice - copies a portion on an array 
-splice - removes/replaces elements 
-sort - sorts array 
+- Push - add to an end
+- Pop - remove from end
+- Shift - remove from start 
+- Unshift - add to start
+- concat - merge arrays
+- includes - look for a value
+- indexOf - just like string.indexOf
+- join - creates a string from an array
+- reverse - reverses an array 
+- slice - copies a portion on an array 
+- splice - removes/replaces elements 
+- sort - sorts array 
 
-# Goals for this section
+# Goals for this section (subset of array methods)
 - Use the new arrow function syntax
 - understand and use these methods
     - forEach
@@ -111,4 +111,18 @@ sort - sorts array
     - reduce 
     - some 
     - every 
-    
+
+# ForEach 
+ - accepts a callback function. calls the function once per element in the array
+// const numbers = [1,2,3,4,5,6]
+// numbers.foEach(function (el) {
+    console.log(el)
+})
+prints 
+1
+2
+3
+....
+
+# map
+- creates a new array with the results of calling a callback on every element in the array
